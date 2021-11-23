@@ -19,4 +19,5 @@ h1 span,
 h2 span,
 h3 span {
   color: var(--color-p1);
+  font-family:;
 }

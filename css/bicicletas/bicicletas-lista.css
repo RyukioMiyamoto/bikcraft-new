@@ -37,6 +37,7 @@
 .bicicletas-lista h3 {
   display: flex;
   align-items: center;
+  width: max-content;
   margin-bottom: 8px;
 }
 
@@ -49,13 +50,13 @@
   width: 12px;
   height: 8px;
   display: inline-block;
-  margin-right: 6px;
+  margin-right: 8px;
   background-color: var(--color-p1);
   transition: width 0.25s;
 }
 
 .bicicletas-lista li span {
-  padding-left: 18px;
+  padding-left: 20px;
 }
 
 @media (max-width: 800px) {
