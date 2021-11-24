@@ -8,3 +8,8 @@
 @import url("./home/tecnologia.css");
 @import url("./home/parceiros.css");
 @import url("./home/social-proof.css");
+@import url("./home/seguros.css");
+
+body {
+  margin-bottom: 500px;
+}

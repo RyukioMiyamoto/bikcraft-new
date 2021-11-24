@@ -5,6 +5,10 @@
   list-style: none;
 }
 
+body {
+  color: var(--color-11);
+}
+
 a {
   color: inherit;
   text-decoration: none;
