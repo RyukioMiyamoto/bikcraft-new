@@ -50,3 +50,26 @@
 .link:hover {
   color: var(--color-0);
 }
+
+.title-bg {
+  padding-top: 60px;
+  padding-top: 60px;
+  background-color: var(--color-11);
+}
+
+.title p {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+  .title-bg {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .title p {
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: lowercase;
+  }
+}
