@@ -1,0 +1,140 @@
+.bicicletas-bg {
+  background: linear-gradient(to right, #fff 30%, #000 0%);
+}
+
+.bicicletas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.bicicletas-img {
+  display: grid;
+}
+
+.bicicletas-img img,
+.bicicletas-img span {
+  grid-area: 1/1;
+}
+
+.bicicletas-img span {
+  display: inline-block;
+  padding: 8px 16px 8px 8px;
+  margin-top: 20px;
+  border-radius: 4px 0 0 4px;
+  background-color: var(--color-12);
+  place-self: start end;
+}
+
+.bicicletas-content {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-content: start;
+}
+
+.bicicletas-content ul {
+  display: grid;
+  align-content: center;
+  gap: 16px;
+}
+
+.bicicletas-content img {
+  width: 24px;
+  margin-right: 8px;
+}
+
+.bicicletas-content h2,
+.bicicletas-content p {
+  grid-column: 1/-1;
+}
+
+.bicicletas-content h2 {
+  margin-bottom: 20px;
+}
+
+.bicicletas-content h2::before {
+  content: "";
+  width: 12px;
+  height: 8px;
+  display: block;
+  background-color: var(--color-p1);
+  margin-bottom: 8px;
+}
+
+.bicicletas-content p {
+  margin-bottom: 32px;
+}
+
+.bicicletas-content a {
+  place-self: end;
+}
+
+.bicicletas-content li {
+  display: flex;
+  align-items: center;
+}
+
+.button.arrow {
+  display: flex;
+  align-items: center;
+}
+
+.button.arrow::after {
+  content: "";
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background: url("../../img/icones/seta.svg");
+  display: inline-block;
+  transition: transform .25s;
+}
+
+.button.arrow:hover::after {
+  transform: translateX(4px);
+}
+
+@media (max-width: 800px) {
+  .bicicletas-bg {
+    background: var(--color-11);
+  }
+
+  .bicicletas {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .bicicletas-content {
+    grid-template-columns: 1fr;
+  }
+
+  .bicicletas-content ul {
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 32px;
+  }
+
+  .bicicletas-content ul {
+    font-size: 1rem;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 32px;
+  }
+
+  .bicicletas-content a {
+    place-self: start;
+  }
+}
+
+@media (max-width: 375px) {
+  .bicicletas-content p {
+    font-size: 0.75rem;
+  }
+
+  .bicicletas-content ul {
+    font-size: 0.85rem;
+  }
+}

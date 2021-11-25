@@ -26,7 +26,7 @@
 
 .bicicletas-lista img {
   margin-bottom: 16px;
-  transition: 0.25s;
+  transition: transform 0.25s;
 }
 
 .bicicletas-lista li:hover img {

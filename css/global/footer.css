@@ -32,7 +32,7 @@
 }
 
 .footer ul a {
-  transition: 0.25s;
+  transition: filter 0.25s, transform 0.25s;
 }
 
 .footer a:hover {
@@ -67,10 +67,6 @@
   .footer > img {
     grid-column: 1/-1;
   }
-
-  .footer-socials a {
-    filter: none;
-  }
 }
 
 @media (max-width: 600px) {
@@ -81,6 +77,14 @@
 
   .footer > img {
     display: none;
+  }
+
+  .footer-socials a {
+    filter: none;
+  }
+
+  .footer-socials a:hover {
+    transform: none;
   }
 
   .footer-copy {
