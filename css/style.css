@@ -13,9 +13,15 @@
 @import url("./home/tecnologia.css");
 @import url("./home/parceiros.css");
 @import url("./home/social-proof.css");
-@import url("./home/seguros.css");
 
 /* INTERNAL PAGES STYLES */
-
-@import url("./termos/termos.css");
+/* BICICLETAS */
 @import url("./bicicletas/bicicletas.css");
+
+/* SEGUROS */
+@import url("./seguros/seguros.css");
+@import url("./seguros/vantagens.css");
+@import url("./seguros/faq.css");
+
+/* TERMOS */
+@import url("./termos/termos.css");
