@@ -68,6 +68,9 @@
   padding-left: 28px;
 }
 
+.contact-socials a {
+}
+
 @media (max-width: 800px) {
   .contact {
     grid-template-columns: 1fr;
