@@ -1,9 +1,13 @@
 /* GLOBAL STYLES */
 
+/* UTILITIES */
 @import url("./global/global.css");
 @import url("./utilities/typography.css");
 @import url("./utilities/colors.css");
 @import url("./utilities/components.css");
+@import url("./utilities/form.css");
+
+/* HEADER AND FOOTER */
 @import url("./global/header.css");
 @import url("./global/footer.css");
 
@@ -15,15 +19,19 @@
 @import url("./home/social-proof.css");
 
 /* INTERNAL PAGES STYLES */
-/* BICICLETAS */
+  /* BICICLETAS */
 @import url("./bicicletas/bicicletas.css");
 @import url("./bicicleta/bicicleta.css");
 @import url("./bicicleta/seguro.css");
 
-/* SEGUROS */
+  /* SEGUROS */
 @import url("./seguros/seguros.css");
 @import url("./seguros/vantagens.css");
 @import url("./seguros/faq.css");
 
-/* TERMOS */
+  /* CONTATO */
+@import url("./contato/contato.css");
+@import url("./contato/lojas.css");
+
+  /* TERMOS */
 @import url("./termos/termos.css");
