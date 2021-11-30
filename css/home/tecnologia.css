@@ -65,10 +65,12 @@
   .tecnologia {
     grid-template-columns: 1fr;
   }
+
   .tecnologia-content {
     padding-top: 60px;
     padding-top: 60px;
   }
+  
   .tecnologia-img {
     display: none;
   }

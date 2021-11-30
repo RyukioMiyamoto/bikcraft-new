@@ -19,19 +19,22 @@
 @import url("./home/social-proof.css");
 
 /* INTERNAL PAGES STYLES */
-  /* BICICLETAS */
+/* BICICLETAS */
 @import url("./bicicletas/bicicletas.css");
 @import url("./bicicleta/bicicleta.css");
 @import url("./bicicleta/seguro.css");
 
-  /* SEGUROS */
+/* SEGUROS */
 @import url("./seguros/seguros.css");
 @import url("./seguros/vantagens.css");
 @import url("./seguros/faq.css");
 
-  /* CONTATO */
+/* CONTATO */
 @import url("./contato/contato.css");
 @import url("./contato/lojas.css");
 
-  /* TERMOS */
+/* ORÇAMENTO */
+@import url("./orcamento/orcamento.css");
+
+/* TERMOS */
 @import url("./termos/termos.css");
