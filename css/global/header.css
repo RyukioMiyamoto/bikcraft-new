@@ -68,14 +68,20 @@
   .header-menu {
     gap: 12px;
   }
-
+  
   .header-menu a {
     padding: 8px 12px;
   }
 }
 
 @media (max-width: 400px) {
+  .header {
+    justify-content: center;
+  }
+
   .header-menu {
     padding: 0;
+    margin-top: 8px;
+    justify-content: center;
   }
 }

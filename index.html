@@ -6,9 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.">
-  <link rel="shortcut icon" href="./img/" type="image/x-icon">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preload" href="./css/style.css" as="style">
+  <link rel="stylesheet" href="./css/style.css">  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   <title>Bikcraft | Bicicletas elétricas</title>
@@ -18,7 +17,7 @@
   <header class="header-bg">
     <div class="header container">
       <a href="./">
-        <img src="./img/bikcraft.svg" alt="logo tipográfico da Bikcraft">
+        <img src="./img/bikcraft.svg" alt="logo tipográfico da Bikcraft" width="136" height="32">
       </a>
       <nav aria-label="navegação primária">
         <ul class="header-menu font-1-m color-0">
@@ -37,9 +36,10 @@
         <p class="font-2-l color-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você.Explore o mundo na sua velocidade com a Bikcraft</p>
         <a href="./bicicletas.html" class="button">Escolha a sua</a>
       </div>
-      <div>
-        <img src="./img/fotos/introducao.jpg" alt="bicicleta preta">
-      </div>
+      <picture>
+        <source media="(max-width:800px)" srcset="./img/bicicletas/nimbus.jpg">
+        <img src="./img/fotos/introducao.jpg" alt="bicicleta preta" width="1280" height="1600">
+      </picture>
     </div>
   </main>
 
@@ -48,21 +48,27 @@
     <ul>
       <li>
         <a href="./bicicletas/magic.html">
-          <img src="./img/bicicletas/magic-home.jpg" alt="Bicicleta preta">
+          <picture>
+            <img src="./img/bicicletas/magic-home.jpg" alt="Bicicleta preta" width="920" height="1040">
+          </picture>
           <h3 class="font-1-xl">Magic Might</h3>
           <span class="font-2-m cor-8">R$ 2499</span>
         </a>
       </li>
       <li>
         <a href="./bicicletas/nimbus.html">
-          <img src="./img/bicicletas/nimbus-home.jpg" alt="Bicicleta preta">
+          <picture>
+            <img src="./img/bicicletas/nimbus-home.jpg" alt="Bicicleta preta" width="920" height="1040">
+          </picture>
           <h3 class="font-1-xl">Nimbus Stark</h3>
           <span class="font-2-m cor-8">R$ 4999</span>
         </a>
       </li>
       <li>
         <a href="./bicicletas/nebula.html">
-          <img src="./img/bicicletas/nebula-home.jpg" alt="Bicicleta branca">
+          <picture>
+            <img src="./img/bicicletas/nebula-home.jpg" alt="Bicicleta preta" width="920" height="1040">
+          </picture>
           <h3 class="font-1-xl">Nebula Cosmic</h3>
           <span class="font-2-m cor-8">R$ 3999</span>
         </a>
@@ -79,13 +85,13 @@
         <a href="./bicicletas.html" class="link">Escolha um modelo</a>
         <div class="tecnologia-features">
           <div class="features-feature">
-            <img src="./img/icones/eletrica.svg" class="icon">
+            <img src="./img/icones/eletrica.svg" class="icon" alt="" width="24" height="24">
             <h3 class="font-1-m color-1">Motor Elétrico</h3>
             <p class="font-2-s color-5">Toda Bikcraft é equipada com um motor elétrico que possui duração de até 120h. A bateria é recarregada com a sua energia gasta ao pedalar.</p>
           </div>
 
           <div class="features-feature">
-            <img src="./img/icones/rastreador.svg" class="icon">
+            <img src="./img/icones/rastreador.svg" class="icon" alt="" width="24" height="24">
             <h3 class="font-1-m color-1">Rastreador</h3>
             <p class="font-2-s color-5">Sabemos o quão preciosa é a sua Bikcraft, por isso adicionamos rastreadores e sistemas anti-furto para garantir o seu sossego.</p>
           </div>
@@ -93,28 +99,30 @@
       </div>
 
       <div class="tecnologia-img">
-        <img src="./img/fotos/tecnologia.jpg" alt="ferramentas">
+        <img src="./img/fotos/tecnologia.jpg" alt="ferramentas" width="1200" height="1980">
       </div>
 
     </div>
   </article>
 
-  <section class="parceiros" aria-label="Nossos Parceiros">
+  <section class="parceiros" aria-label="Nossos Parceiros" width="1200" height="1920">
     <h2 class="container font-1-xxl">nossos parceiros<span>.<span></h2>
     <ul>
-      <li><img src="./img/parceiros/caravan.svg" alt="logo tipográfico da empresa caravan"></li>
-      <li><img src="./img/parceiros/ranek.svg" alt="logo tipográfico da empresa ranel"></li>
-      <li><img src="./img/parceiros/handel.svg" alt="logo tipográfico da empresa handel"></li>
-      <li><img src="./img/parceiros/dogs.svg" alt="logo tipográfico da empresa dogs com desenho do rosto de um cachorro"></li>
-      <li><img src="./img/parceiros/lescone.svg" alt="logo tipográfico da empresa lescone"></li>
-      <li><img src="./img/parceiros/flexblog.svg" alt="logo tipográfico da empresa flexblog"></li>
-      <li><img src="./img/parceiros/wildbeast.svg" alt="logo tipográfico da empresa wildbeast"></li>
-      <li><img src="./img/parceiros/surfbot.svg" alt="logo tipográfico da empresa surfbot e um desenho de uma prancha de surf"></li>
+      <li><img src="./img/parceiros/caravan.svg" alt="logo tipográfico da empresa caravan" width="140" height="38"></li>
+      <li><img src="./img/parceiros/ranek.svg" alt="logo tipográfico da empresa ranek" width="149" height="36"></li>
+      <li><img src="./img/parceiros/handel.svg" alt="logo tipográfico da empresa handel" width="140" height="50"></li>
+      <li><img src="./img/parceiros/dogs.svg" alt="logo tipográfico da empresa dogs com desenho do rosto de um cachorro" width="152" height="39"></li>
+      <li><img src="./img/parceiros/lescone.svg" alt="logo tipográfico da empresa lescone" width="208" height="41"></li>
+      <li><img src="./img/parceiros/flexblog.svg" alt="logo tipográfico da empresa flexblog" width="165" height="38"></li>
+      <li><img src="./img/parceiros/wildbeast.svg" alt="logo tipográfico da empresa wildbeast" width="196" height="34"></li>
+      <li><img src="./img/parceiros/surfbot.svg" alt="logo tipográfico da empresa surfbot e um desenho de uma prancha de surf" width="200" height="49"></li>
     </ul>
   </section>
 
   <section class="social-proof" aria-label="Depoimento">
+    <picture>
     <img src="./img/fotos/depoimento.jpg" alt="Pessoa pedalando com uma bicicleta Bikcraft" width="1560" height="1360">
+    </picture>
     <div class="social-proof-content ">
       <blockquote class="font-1-xl color-p5">
         <p>Pedalar sempre foi a minha paixão, o que o pessoal da Bikcraft fez foi intensificar o meu amor por esta atividade. Recomendo à todos que amo.</p>
@@ -155,7 +163,7 @@
 
   <footer class="footer-bg">
     <div class="footer container">
-      <img src="./img/bikcraft.svg" alt="logo tipográfico da Bikcraft">
+      <img src="./img/bikcraft.svg" alt="logo tipográfico da Bikcraft" width="136" height="32">
       <div class="footer-contact">
         <h3 class="font-2-l-b color-0">Contato</h3>
         <ul class="font-2-m color-5">
@@ -166,13 +174,13 @@
         </ul>
         <div class="footer-socials">
           <a href="https://www.instagram.com" class="socials-icon">
-            <img src="./img/redes/instagram.svg" alt="logo Instagram">
+            <img src="./img/redes/instagram.svg" alt="logo Instagram" width="32" height="32">
           </a>
           <a href="https://www.facebook.com" class="socials-icon">
-            <img src="./img/redes/facebook.svg" alt="logo Facebook">
+            <img src="./img/redes/facebook.svg" alt="logo Facebook" width="32" height="32">
           </a>
           <a href="https://www.youtube.com" class="socials-icon">
-            <img src="./img/redes/youtube.svg" alt="logo Youtube">
+            <img src="./img/redes/youtube.svg" alt="logo Youtube" width="32" height="32">
           </a>
         </div>
       </div>
