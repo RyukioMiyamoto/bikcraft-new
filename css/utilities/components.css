@@ -54,6 +54,10 @@
   color: var(--color-0);
 }
 
+.title {
+  background: url("../../img/dec/top-right.svg") no-repeat top right 20px;
+}
+
 .title-bg {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -74,5 +78,25 @@
     font-size: 1rem;
     font-weight: 400;
     text-transform: lowercase;
+  }
+}
+
+.socials-icon {
+  filter: brightness(0.5);
+  transition: filter 0.25s, transform 0.25s;
+}
+
+.socials-icon:hover {
+  transform: translateY(-5px);
+  filter: brightness(1);
+}
+
+@media (max-width: 800px) {
+  .socials-icon {
+    filter: none;
+  }
+
+  .socials-icon:hover {
+    transform: none;
   }
 }

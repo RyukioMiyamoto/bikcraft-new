@@ -15,12 +15,14 @@
 
 .contact-info {
   border-radius: 5px 0 0 5px;
-  background-color: var(--color-12);
+  background: var(--color-12) url("../../img/dec/bottom-left.svg") no-repeat
+    bottom 20px left 20px;
 }
 
 .contact-form {
+  background: var(--color-0) url("../../img/dec/bottom-right.svg") no-repeat
+    bottom 20px right 20px;
   border-radius: 0 5px 5px 0;
-  background-color: var(--color-0);
 }
 
 .contact-info h2 {
@@ -68,8 +70,6 @@
   padding-left: 28px;
 }
 
-.contact-socials a {
-}
 
 @media (max-width: 800px) {
   .contact {
@@ -82,6 +82,8 @@
   }
 
   .contact-info {
+    background: var(--color-12) url("../../img/dec/bottom-right.svg") no-repeat
+      bottom 20px right 20px;
     border-radius: 5px 5px 0 0;
   }
 

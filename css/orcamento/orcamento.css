@@ -37,7 +37,8 @@
   align-content: flex-start;
   gap: 20px;
   border-radius: 5px 0 0 5px;
-  background-color: var(--color-12);
+  background: var(--color-12) url("../../img/dec/bottom-left.svg") no-repeat
+    bottom 20px left 20px;
 }
 
 .orcamento-produto > * {
@@ -108,8 +109,9 @@
 }
 
 .orcamento-info {
+  background: var(--color-0) url("../../img/dec/bottom-right.svg") no-repeat
+    bottom 20px right 20px;
   border-radius: 0 5px 5px 0;
-  background-color: var(--color-0);
 }
 
 .orcamento-content {
@@ -165,6 +167,7 @@
   }
 
   .orcamento-produto {
+    background: var(--color-12);
     border-radius: 5px 5px 0 0;
   }
 
