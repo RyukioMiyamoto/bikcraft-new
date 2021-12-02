@@ -58,15 +58,13 @@
     padding-bottom: 60px;
   }
 
-  
-.faq dd {
-  max-width: 60ch;
-}
+  .faq dd {
+    max-width: 60ch;
+  }
 }
 
-
-@media (max-width: 600px) {  
-.faq dd {
-  max-width: 45ch;
-}
+@media (max-width: 600px) {
+  .faq dd {
+    max-width: 45ch;
+  }
 }
