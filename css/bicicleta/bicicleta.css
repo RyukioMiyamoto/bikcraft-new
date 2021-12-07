@@ -95,6 +95,12 @@
   color: var(--color-6);
 }
 
+@media (min-width: 1000px) {
+  .bicicleta-images img + img {
+    cursor: pointer;
+  }
+}
+
 @media (max-width: 800px) {
   .bicicleta {
     grid-template-columns: 1fr;
