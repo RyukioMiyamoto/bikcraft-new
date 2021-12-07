@@ -37,7 +37,7 @@
   background-color: var(--color-p1);
 }
 
-.faq button::after {
+.js .faq button::after {
   content: "";
   display: inline-block;
   width: 14px;
@@ -52,11 +52,11 @@
   transform: initial;
 }
 
-.faq dd {
+.js .faq dd {
   display: none;
 }
 
-.faq dd.active {
+.js .faq dd.active {
   display: block;
 }
 

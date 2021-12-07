@@ -67,4 +67,6 @@ function galleryAddEventListener(img) {
 
 gallery.forEach(galleryAddEventListener); // RUNS THROUGH ALL IMAGES IN GALLERY
 
-new SimpleAnime();
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
