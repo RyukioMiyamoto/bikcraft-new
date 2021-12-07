@@ -23,3 +23,24 @@ function activateItem(parameter) {
 }
 
 parameters.forEach(activateItem);
+
+// FAQ accordion
+const faqs = document.querySelectorAll(".faq button");
+
+function showAccordion(e) {
+  const faq = e.currentTarget;
+  const controls = faq.getAttribute("aria-controls");
+  const answer = document.getElementById(controls);
+
+  answer.classList.toggle("active");
+  const active = answer.classList.contains("active");
+  faq.setAttribute("aria-expanded", active);
+
+  console.log(faq, controls, answer);
+}
+
+function faqEvents(faq) {
+  faq.addEventListener("click", showAccordion);
+}
+
+faqs.forEach(faqEvents);
