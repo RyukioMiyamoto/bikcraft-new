@@ -40,12 +40,17 @@
     <main>
       <div class="title-bg">
         <div class="title container">
-          <p class="font-2-l-b color-5">Respostas em até 24H</p>
-          <h1 class="font-1-xxl color-0">nosso contato<span>.</span></h1>
+          <p class="font-2-l-b color-5 fadeInLeft" data-anime="100">
+            Respostas em até 24H
+          </p>
+          <h1 class="font-1-xxl color-0 fadeInLeft" data-anime="200">
+            nosso contato<span>.</span>
+          </h1>
         </div>
       </div>
       <div class="contact container">
-        <section aria-label="Endereço" class="contact-info">
+        
+        <section aria-label="Endereço" class="contact-info fadeInDown" data-anime="400">
           <h2 class="font-1-m color-0">Loja Online</h2>
           <div class="contact-address font-2-s color-4">
             <p>Rua Rua - Número N°</p>
@@ -87,7 +92,7 @@
           </div>
         </section>
 
-        <section aria-label="Formulário" class="contact-form">
+        <section aria-label="Formulário" class="contact-form fadeInUp" data-anime="400">
           <form action="./contato.html" class="form">
             <div>
               <label for="nome">Nome</label>
@@ -131,8 +136,8 @@
     </main>
 
     <article class="stores container">
-      <h2 class="font-1-xxl">lojas Físicas<span>.</span></h2>
-      <div class="stores-item">
+      <h2 class="font-1-xxl fadeInLeft" data-anime="200">lojas Físicas<span>.</span></h2>
+      <div class="stores-item fadeInLeft" data-anime="400">
         <img
           src="./img/lojas/rj.jpg"
           alt="mapa marcando o endereço em Rua rua, número N°, bairro Bairro Cidade - Estado"
@@ -162,7 +167,7 @@
         </div>
       </div>
 
-      <div class="stores-item">
+      <div class="stores-item fadeInRight" data-anime="400">
         <img
           src="./img/lojas/sp.jpg"
           alt="mapa marcando o endereço em Rua rua, número N°, bairro Bairro Cidade - Estado"
@@ -253,6 +258,7 @@
         </p>
       </div>
     </footer>
+    <script src="./js/plugins/simple-anime.js"></script>
     <script src="./js/script.js"></script>
   </body>
 </html>

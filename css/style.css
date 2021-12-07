@@ -6,6 +6,7 @@
 @import url("./utilities/colors.css");
 @import url("./utilities/components.css");
 @import url("./utilities/form.css");
+@import url("./utilities/animations.css");
 
 /* HEADER AND FOOTER */
 @import url("./global/header.css");

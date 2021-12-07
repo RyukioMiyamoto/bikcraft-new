@@ -30,3 +30,12 @@ h2 span,
 h3 span {
   color: var(--color-p1);
 }
+
+@media (prefers-reduced-motion) {
+  *,
+  *::before,
+  *::after {
+    transform: none !important;
+    transition: none !important;
+  }
+}

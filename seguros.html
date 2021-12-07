@@ -40,14 +40,18 @@
     <main class="seguros-bg">
       <div class="title-bg">
         <div class="title container">
-          <p class="font-2-l-b color-5">Escolha o seu</p>
-          <h1 class="font-1-xxl color-0">você seguro<span>.</span></h1>
+          <p class="font-2-l-b color-5 fadeInLeft" data-anime="100">
+            Escolha o seu
+          </p>
+          <h1 class="font-1-xxl color-0 fadeInLeft" data-anime="200">
+            você seguro<span>.</span>
+          </h1>
         </div>
       </div>
 
       <div class="seguros container">
         <h2 aria-label="Opções de seguro"></h2>
-        <div class="seguros-item">
+        <div class="seguros-item fadeInDown" data-anime="400">
           <h3 class="font-1-xl color-6">PRATA</h3>
           <span class="font-1-xl color-0"
             >R$ 199 <span class="font-1-xs color-6">mensal</span></span
@@ -65,7 +69,7 @@
           >
         </div>
 
-        <div class="seguros-item">
+        <div class="seguros-item fadeInDown" data-anime="600">
           <h3 class="font-1-xl color-p1">OURO</h3>
           <span class="font-1-xl color-0"
             >R$ 299 <span class="font-1-xs color-6">mensal</span></span
@@ -87,10 +91,12 @@
 
     <article class="vantagens-bg">
       <div class="vantagens container">
-        <h2 class="font-1-xxl color-0">vantagens<span>.</span></h2>
+        <h2 class="font-1-xxl color-0 fadeInLeft" data-anime="200">
+          vantagens<span>.</span>
+        </h2>
 
-        <ul>
-          <li>
+        <ul class="fadeInLeft" data-anime="400">
+          <li class="fadeInDown" data-anime="500">
             <img
               src="./img/icones/eletrica.svg"
               alt=""
@@ -103,7 +109,7 @@
               Sabemos que falhas são raras, mas estamos aqui para caso ocorra.
             </p>
           </li>
-          <li>
+          <li class="fadeInDown" data-anime="600">
             <img src="./img/icones/carbono.svg" alt="" width="24" height="24" />
             <h3 class="font-1-l color-0">Carbono</h3>
             <p class="font-2-s color-5">
@@ -111,7 +117,7 @@
               ocorra, ficamos felizes em reparar.
             </p>
           </li>
-          <li>
+          <li class="fadeInDown" data-anime="700">
             <img
               src="./img/icones/sustentavel.svg"
               alt=""
@@ -124,7 +130,7 @@
               defeituosa é reciclada e reutilizada em outro projeto.
             </p>
           </li>
-          <li>
+          <li class="fadeInDown" data-anime="800">
             <img
               src="./img/icones/rastreador.svg"
               alt=""
@@ -136,8 +142,8 @@
               Utilizamos o GPS da sua Bikcraft em conjunto com especialistas em
               segurança para efetuarmos a recuperação.
             </p>
-          </li>
-          <li>
+          </li class="fadeInDown" data-anime="900">
+          <li class="fadeInDown" data-anime="1000">
             <img src="./img/icones/seguro.svg" alt="" width="24" height="24" />
             <h3 class="font-1-l color-0">Segurança</h3>
             <p class="font-2-s color-5">
@@ -145,7 +151,7 @@
               dinheiro não será perdido em casos de roubo.
             </p>
           </li>
-          <li>
+          <li class="fadeInDown" data-anime="1100">
             <img
               src="./img/icones/velocidade.svg"
               alt=""
@@ -164,9 +170,9 @@
 
     <!-- TODO:  ACCORDION FAQ IN JAVASCRIPT -->
     <article class="faq container">
-      <h2 class="font-1-xxl">perguntas frequentes<span>.</span></h2>
+      <h2 class="font-1-xxl fadeInLeft" data-anime="200">perguntas frequentes<span>.</span></h2>
 
-      <dl>
+      <dl class="fadeInLeft" data-anime="400">
         <div>
           <dt>
             <button
@@ -185,7 +191,7 @@
         </div>
 
         <div>
-          <dt>
+          <dt class="fadeInLeft" data-anime="500">
             <button
               class="font-1-m-b"
               aria-expanded="false"
@@ -331,6 +337,7 @@
         </p>
       </div>
     </footer>
+    <script src="./js/plugins/simple-anime.js"></script>
     <script src="./js/script.js"></script>
   </body>
 </html>
